@@ -39,3 +39,59 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+.contact-container {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #2f0468;
+}    
+
+.contact-container:hover {
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 3px black;
+}
+
+.contact-img {
+  flex: 1 1 50%;
+  box-sizing: border-box;
+  padding: 40px 40px;
+}
+
+.dog-img {
+  width: 60%;
+  border-radius: 8px;
+  margin-left: 100px;
+}
+
+.contact-form {
+  flex: 1 1 50%;
+  box-sizing: border-box;
+  padding: 40px 0 0 40px;
+  margin-top: 100px;
+}
+
+.info {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #2f0468;
+}
+
+.info:hover {
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 3px black;
+    overflow: hidden;
+}
+
+.basic {
+  flex: 1 1 50%;
+  box-sizing: border-box;
+  padding: 40px 40px;
+  text-align: center;
+}
+
+.maps {
+  flex: 1 1 50%;
+  box-sizing: border-box;
+  padding: 40px 40px;
+}
