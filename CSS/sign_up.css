@@ -119,6 +119,34 @@ h1:hover{
     margin: 20px;
     color: #2f0468;
 }
+.logo{
+    height: 20px;
+}
+@media screen and (max-width: 599px)
+{
+    h1{
+        font-size: 30px;
+    }
+    .card{
+        width: 70%;
+        margin: 8% 13%;
+    }
+    .label{
+        font-size: 17px;
+    }
+    .text:hover{
+        height: 40px;
+        transition: 0.3s;
+    }    
+    .sign-btn{
+        font-size: 15px;
+    }
+    .account{
+        font-size: 14px;
+    }
+
+}
+
 
 
 
