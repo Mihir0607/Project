@@ -111,3 +111,56 @@ h1:hover{
  resize: none;
  height: 200px;
 }
+.d {
+  background-color: #94cbff;
+  color: #2f0468;
+  border: none;
+  border-radius: 30px;
+  padding: 20px;
+  font-family: "Aclonica", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  width: 120px;
+}
+.d:hover{
+  text-align: center;
+  background-color: #2f0468;
+  border-radius: 25px;
+  color: #94cbff;
+}
+.int{
+  border: 1.6px solid black;
+  height: 30px;
+  padding: 5px 0px 5px 20px;
+  margin-left: 5px;
+  width: 400px;
+  border-radius: 7px;
+}
+.int1{
+  border: 1.6px solid black;
+  padding: 20px 0px 5px 20px;
+  margin-left: 5px;
+  width: 400px;
+  border-radius: 7px;
+  height: 100px;
+}
+
+
+.footer{
+  margin-top: 30px;
+  background-color: #94cbff;
+  padding: 20px;
+}
+.footer-container{
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.card{
+  display: block;
+}
+.footer-main-logo{
+  width: 250px;
+}
