@@ -164,3 +164,42 @@ h1:hover{
 .footer-main-logo{
   width: 250px;
 }
+.footer-logo-section{
+  width: 250px;
+  color: #2f0468;
+  margin-top: 15px;
+}
+.footer-contact{
+  width: 300px;
+}
+.quick-links-contain{
+  text-decoration: none;
+  color: #2f0468;
+  text-transform: capitalize;
+  transition: all 0.5s ease;
+}
+
+.quick-links  a:hover{
+  color: #2f0468;
+  padding-left: 8px;
+}
+
+.footer-social{
+  text-align: center;
+}
+
+.social-text{
+  font-family: "Aclonica", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.contact-info{
+  color: #2f0468;
+  display: flex;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+.contact-info:hover{
+  padding-left: 8px;
+}
