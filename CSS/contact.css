@@ -95,3 +95,19 @@ body {
   box-sizing: border-box;
   padding: 40px 40px;
 }
+h1{
+  text-align: center; 
+}
+h1:hover{
+ transform: rotate(360deg);
+ transition: all 0.8s ease;
+}
+.Contact{
+ display: grid;
+ row-gap: 1rem;
+}
+
+.Contact textarea{
+ resize: none;
+ height: 200px;
+}
