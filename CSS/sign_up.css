@@ -14,3 +14,23 @@ body{
     align-items: center;
     margin: 0 10px;
 }
+.card{
+    border: 2px solid #2f0468;
+    width: 530px;
+    margin: 50px 460px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #94cbff;
+    color: #2f0468;
+}
+.card:hover{
+    box-shadow: 0 5px 28px #2f0468;
+    transform: translateY(-6px); 
+    color: #2f0468;
+    transition: 0.3s;
+}
+h1{
+    text-align: center;
+    color: #2f0468;
+}
+
