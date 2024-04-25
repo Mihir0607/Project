@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Courgette&display=swap');
+body{
+   margin: 0;
+   padding: 0;
+   font-family: "Aclonica", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+}
+
+
+.header{
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   padding: 0px 0px;
+   background-color: #6509dc;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   z-index: 100;
+}
+.hamburger{
+   height: 50px;
+}
+
+
+.row{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-top: 100px;
+}
+.cat-img{
+   height: 300px;
+   border-radius: 25px;
+}
+.heart-icon-div{
+    border-radius: 50%;
+}
+.fa-heart:hover{
+   transform: rotateX(180);
+   font-weight: bolder;
+}
+
+.fa-heart{
+    font-size: 30px;
+}
+
+
+.card{
+   
+   width: 300px;
+   height: 185px;
+   border: none;
+}
+
+
+.cat-name{
+   text-align: center;
+   color:#2f0468;
+}
+.cat-about{
+   display: flex;
+   justify-content: start;
+   align-items: center;
+}
+.cat-description{
+   display: flex;
+   justify-content: start;
+   align-items: center;
+}
+.cat-info{
+   font-size: 13px;
+}
+.card-body{
+   margin: 0 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-bottom: 1px solid #2f0468;
+   
+}
+.rating-img{
+   height: 100px;
+}
+.card-footer{
+   display: flex;
+   justify-content: space-around;
+   margin: 10px;
+   align-items: center;
+   
+}
+.container{
+   position: relative;
+   border-radius: 25px; 
+   box-shadow: 0px 0px 8px 0.5px black;
+   padding: 1px;
+}
