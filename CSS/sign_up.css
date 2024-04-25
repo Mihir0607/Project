@@ -33,4 +33,20 @@ h1{
     text-align: center;
     color: #2f0468;
 }
+h1:hover{
+    transform: rotate(360deg);
+    transition: all 0.8s ease;
+}
+.main-section{
+    margin-top: 10px;
+    color: #2f0468;
+}
+.section{
+    margin: 10px -3px;
+    padding-left: 8px;
+}
+.label{
+    font-size: 18px;
+}
+
 
