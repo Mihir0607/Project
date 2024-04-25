@@ -48,5 +48,30 @@ h1:hover{
 .label{
     font-size: 18px;
 }
+.text{
+    height: 35px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1.5px solid #2f0468;
+    color: #2f0468;
+}
+.text:hover{
+    height: 40px;
+    border-radius: 8px;
+    border: 2px solid #2f0468;
+    transition: 0.2s;
+}
+.icon{
+    font-size: 30px;
+}
+.radio-btn{
+    margin: 20px 0px;
+}
+.account{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
 
 
